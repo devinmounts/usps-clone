@@ -7,17 +7,22 @@
 }
 .item1 {
    grid-area: main-photo;
-   max-height: 400px;
+   max-height: 500px;
    max-width: 700px;
 
  }
 .item2 {
   grid-area: main-caption;
   background-color: black;
+  max-height: 500px;
+  max-width: 300px;
+
  }
 .item3 {
   grid-area: small01-photo;
   background-color: forestgreen;
+  max-height: 400px;
+  max-width: 200px;
 }
 .item4 {
   grid-area: small01-caption;
@@ -52,7 +57,7 @@
   width: 90%;
   display: grid;
   grid-template-columns: 16% 16% 16% 16% 16% 16%;
-  grid-template-rows: 100%;
+  grid-template-rows: ;
   grid-template-areas:
     'main-photo main-photo main-photo main-photo main-caption main-caption'
     ;
@@ -63,7 +68,6 @@
 
 .main-container > div {
   text-align: center;
-  padding: 20px 0;
   font-size: 30px;
 }
 
@@ -90,4 +94,7 @@
 
 #main-photo{
   width: 100%;
+}
+.container .main {
+  display: inline-block
 }
