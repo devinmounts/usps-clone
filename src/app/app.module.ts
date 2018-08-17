@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { routing } from './app.routing';
 import { NavComponent } from './nav/nav.component';
 import { PopularPagesComponent } from './popular-pages/popular-pages.component';
+import { TopNewsComponent } from './top-news/top-news.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { PopularPagesComponent } from './popular-pages/popular-pages.component';
     AppComponent,
     HomeComponent,
     NavComponent,
-    PopularPagesComponent
+    PopularPagesComponent,
+    TopNewsComponent
   ],
   imports: [
     BrowserModule,
