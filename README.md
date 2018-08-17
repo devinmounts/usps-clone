@@ -4,7 +4,7 @@
 
 #### By Devin Mounts
 
-## A web application clone for Copa Airlines that allows users to book and view flights. The url of the original site is: https://www.copaair.com/en/web/us
+## A web application clone for Copa Airlines that allows users to book and view flights. The url of the original site can be found in Links.
 
 
 ## Specs
@@ -21,6 +21,7 @@
 
 * Install Node.js
 * Install Angular CLI: `npm install -g @angular/cli@1.6.5`
+* Navigate to `http://localhost:4200/`.
 * Clone the repo
 * `npm install` to install dependencies
 * `ng serve` to build and start the dev server
@@ -37,49 +38,16 @@
 
 * JavaScript
 * Node.js
-* jQuery 3.3.1
+* Angular CLI 1.6.5
 * Bootstrap 4.1.3
-* Babel
-* Webpack
-* ESLint
-* Jasmine
-* Karma
+
 
 ## Links
 
-* Add links here
+* Original Copa Airlines Website: https://www.copaair.com/en/web/us
 
 ## License
 
 This software is licensed under the MIT license.
 
 Copyright (c) 2018 **Devin Mounts**
-
-
-# CopaClone
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
