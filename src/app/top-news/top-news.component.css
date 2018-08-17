@@ -8,6 +8,9 @@
 .item1 {
    grid-area: main-photo;
    background-color: forestgreen;
+   background-image: url('../../assets/images/imageMain.png');
+   background-size: contain;
+
  }
 .item2 {
   grid-area: main-caption;
@@ -49,6 +52,8 @@
   margin: auto;
   width: 90%;
   display: grid;
+  grid-template-columns: 16% 16% 16% 16% 16% 16%;
+  grid-template-rows: 100%;
   grid-template-areas:
     'main-photo main-photo main-photo main-photo main-caption main-caption'
     ;
@@ -85,5 +90,5 @@
 }
 
 #main-image{
-  align-self: stetch;
+object-fit: contain;
 }
