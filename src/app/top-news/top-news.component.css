@@ -1,3 +1,10 @@
+.container-label{
+  padding-left: 10px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin: auto;
+  width: 90%;
+}
 .item1 {
    grid-area: main-photo;
    background-color: forestgreen;
@@ -39,7 +46,6 @@
 }
 
 .main-container {
-  padding-top: 100px;
   margin: auto;
   width: 90%;
   display: grid;
@@ -48,6 +54,7 @@
     ;
   grid-row-gap: 10px;
   color: white;
+  border-radius: 10px;
 }
 
 .main-container > div {
@@ -68,6 +75,7 @@
     ;
   grid-column-gap: 40px;
   color: white;
+  border-radius: 10px;
 }
 
 .small-container > div {
@@ -77,5 +85,5 @@
 }
 
 #main-image{
-  object-fit: cover;
+  align-self: stetch;
 }
