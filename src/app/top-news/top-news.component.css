@@ -1,13 +1,42 @@
-.item1 { grid-area: main-photo; }
-.item2 { grid-area: main-caption; }
-.item3 { grid-area: small01-photo; }
-.item4 { grid-area: small01-caption; }
-.item5 { grid-area: small02-photo; }
-.item6 { grid-area: small02-caption; }
-.item7 { grid-area: small03-photo; }
-.item8 { grid-area: small03-caption; }
-.item9 { grid-area: small04-photo; }
-.item10 { grid-area: small04-caption; }
+.item1 {
+   grid-area: main-photo;
+   background-color: forestgreen;
+ }
+.item2 {
+  grid-area: main-caption;
+  background-color: black;
+ }
+.item3 {
+  grid-area: small01-photo;
+  background-color: forestgreen;
+}
+.item4 {
+  grid-area: small01-caption;
+  background-color: black;
+}
+.item5 { grid-area: small02-photo;
+  background-color: forestgreen;
+}
+.item6 { grid-area: small02-caption;
+  background-color: black;
+}
+.item7 {
+  grid-area: small03-photo;
+  background-color: forestgreen;
+}
+.item8 {
+  grid-area: small03-caption;
+  background-color: black;
+}
+
+.item9 {
+  grid-area: small04-photo;
+  background-color: forestgreen;
+}
+.item10 {
+  grid-area: small04-caption;
+  background-color: black
+}
 
 .main-container {
   padding-top: 100px;
@@ -16,16 +45,12 @@
   display: grid;
   grid-template-areas:
     'main-photo main-photo main-photo main-photo main-caption main-caption'
-    'main-photo main-photo main-photo main-photo main-caption main-caption'
-    'main-photo main-photo main-photo main-photo main-caption main-caption'
     ;
   grid-row-gap: 10px;
-  background-color: #2196F3;
-
+  color: white;
 }
 
 .main-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
@@ -41,14 +66,16 @@
     'small01-caption small02-caption small03-caption small04-caption'
     'small01-caption small02-caption small03-caption small04-caption'
     ;
-  grid-column-gap: 10px;
-  background-color: #2196F3;
-
+  grid-column-gap: 40px;
+  color: white;
 }
 
 .small-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+}
+
+#main-image{
+  object-fit: cover;
 }
