@@ -4,7 +4,7 @@
 
 #### By Devin Mounts
 
-## A web application clone for One Football that allows users to book and view flights. The url of the original site can be found in Links.
+## A web application clone for One Football that allows view articles about soccer. The url of the original site can be found in Links.
 
 
 ## Specs
