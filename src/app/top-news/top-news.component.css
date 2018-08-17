@@ -95,6 +95,9 @@
 #main-photo{
   width: 100%;
 }
-.container .main {
-  display: inline-block
+.main{
+  display: inline-flex;
+  border-radius: 5px;
+  vertical-align: baseline;
+  border: 5px, blue;
 }
