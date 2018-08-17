@@ -1,5 +1,7 @@
 .icon-container {
-  display: inline-grid;
+  margin: auto;
+  width: 80%;
+  display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto;
   background-color: #2196F3;
   padding: 10px;
@@ -15,7 +17,7 @@
 
 
 .icon {
-  display: inline-grid;
+  display: grid;
   border: 5px, red;
   background-color: lightblue;
   margin: 20px;
@@ -27,9 +29,4 @@
 #icon1{
   height: 50px;
   width: 50px;
-}
-
-#popular {
-  border: 5px, darkgreen;
-  background-color: lightgreen;
 }
