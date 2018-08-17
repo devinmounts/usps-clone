@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Flight } from './models/flight.model';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +6,7 @@ import { Flight } from './models/flight.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Copa Air';
+  title = 'One Football Clone';
 
 
 }
