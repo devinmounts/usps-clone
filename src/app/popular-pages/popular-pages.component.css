@@ -1,1 +1,35 @@
-.popularIcon
+.icon-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.icon-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.icon {
+  display: inline-grid;
+  border: 5px, red;
+  background-color: lightblue;
+  margin: 20px;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+#icon1{
+  height: 50px;
+  width: 50px;
+}
+
+#popular {
+  border: 5px, darkgreen;
+  background-color: lightgreen;
+}
