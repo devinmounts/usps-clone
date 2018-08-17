@@ -20,13 +20,11 @@
 ## Setup on OSX
 
 * Install Node.js
-* Install karma-cli globally: `npm install -g karma-cli`
+* Install Angular CLI: `npm install -g @angular/cli@1.6.5`
 * Clone the repo
-* Create a file in the root directory called `.env` with your API key written in this format: **exports.apiKey** = **_API KEY HERE_**
 * `npm install` to install dependencies
-* `npm run start` to build and start the dev server
-* `npm run lint` to explicitly run ESLint
-* `npm run test` to run the unit tests with Karma and Jasmine. Visit `localhost:9876` to view the tests.
+* `ng serve` to build and start the dev server
+
 
 ## Contribution Requirements
 
