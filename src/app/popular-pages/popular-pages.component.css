@@ -1,18 +1,27 @@
 .icon-container {
   margin: auto;
-  width: 80%;
+  width: 90%;
   display: grid;
+  grid-column-gap: 10px;
+  border-radius: 20px;
   grid-template-columns: auto auto auto auto auto auto auto auto;
-  background-color: #2196F3;
   padding: 10px;
 }
-
+.container-label{
+  padding-left: 10px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin: auto;
+  width: 90%;
+}
 .icon-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
   padding: 20px;
   font-size: 30px;
   text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 

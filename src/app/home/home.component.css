@@ -1,4 +1,4 @@
 .gradient {
-    background-color: grey;
-    background-image: linear-gradient(grey, white);
+    background-color: #f0f2f5;
+    background-image: linear-gradient(#f0f2f5, white);
 }
