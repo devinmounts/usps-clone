@@ -8,7 +8,6 @@
 .item1 {
    grid-area: main-photo;
    background-color: forestgreen;
-   background-image: url('../../assets/images/imageMain.png');
    background-size: contain;
 
  }
@@ -78,7 +77,7 @@
     'small01-caption small02-caption small03-caption small04-caption'
     'small01-caption small02-caption small03-caption small04-caption'
     ;
-  grid-column-gap: 40px;
+  grid-column-gap: 20px;
   color: white;
   border-radius: 10px;
 }

@@ -4,17 +4,17 @@
 
 #### By Devin Mounts
 
-## A web application clone for Copa Airlines that allows users to book and view flights. The url of the original site can be found in Links.
+## A web application clone for One Football that allows users to book and view flights. The url of the original site can be found in Links.
 
 
 ## Specs
 
 | Behavior | Input | Output |
 |----------|-------|--------|
-| Program allows user to search a flight by route (departure and arrival destination), and date (departure and arrival) |PDX - LAX, 08/15/2018-08/16/2018| FlightOption01, FlightOption02... |
-| Program allows user to view Lowest Fare Sale options, and filters by origin | Qutio, Equador | Booking options from Quito  |
-| Program allows user to check in using last Name and reservation number | Smith, ###### | Details Page |
-| Program allows user to search for flight information by flight # and date | ####, 08/15/2018 |  |
+| Program allows user to view articles on home page | |  |
+| Program allows user to click on an article and be routed to article page | Article click | Article View |
+| Program allows user to click on popular page and view match data and articles on popular page view | Popular Page 01 click| Data and Article Details view|
+| Program allows user to search for teams and returns details view | Real Madrid | Real Madrid Details View |
 
 
 ## Setup on OSX
@@ -44,7 +44,8 @@
 
 ## Links
 
-* Original Copa Airlines Website: https://www.copaair.com/en/web/us
+* Original One Football Website:
+https://onefootball.com/en/home
 
 ## License
 
