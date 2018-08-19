@@ -1,6 +1,5 @@
  div.row {
   width: 100%;
-  border: 5px red;
   min-height: 200px;
   position:relative;
 }
@@ -41,6 +40,26 @@ div.row div.label-container{
   text-decoration: underline;
   text-decoration-color: red;
   text-decoration-style: solid;
+}
+
+input{
+  border-radius: 5px;
+  margin-left: 20px;
+  padding-left: 30px;
+  width: 100%;
+  align-items: center;
+}
+
+button{
+  margin-left: 40px;
+  display: inline-block;
+  height: 40px;
+  width: 80px;
+}
+
+.form-group{
+  width: 80%;
+  display: inline-block;
 }
 /*.label-container {
   width: 80%;

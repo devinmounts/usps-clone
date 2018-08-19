@@ -7,3 +7,17 @@
     </ul>
   </div>
 </div>
+<div class="row02">
+<form>
+  <div class="form-group">
+    <input
+    ngModel type="text"
+    name="tracking"
+    #tracking="ngModel"
+    (change)=log(tracking)
+    placeholder="Enter up to 35 tracking numbers separated by commas">
+  </div>
+  <button type="button" name="button">Track</button>
+</form>
+
+</div>
