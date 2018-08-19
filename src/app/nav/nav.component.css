@@ -1,71 +1,83 @@
-.small-nav {
-  /* width: 100%; */
-  position: absolute;
-  z-index: 1;
-}
-
-ul {
-    float:right;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    position: fixed;
-    width: 100%;
-}
-
-li {
-    float: right;
-}
-
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    font-size: 10pt;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #d8d8d8;
-}
-
-.dropdown-content {
-  overflow: hidden;
-    display: none;
-    position: relative;
-    background-color: #d8d8d8;
-    max-width: 10%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-  /* max-width: 10%; */
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
+.small-nav ul {
   display: block;
-  text-align: left;
+  float:right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  width: 100%;
 }
 
-.dropdown-content a:hover {
-    background-color: #ddd;
+.small-nav li {
+  float: right;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+.small-nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  font-size: 10pt;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-/* .bg-white {
-    background-color: white;
+.small-nav li a:hover {
+  background-color: #d8d8d8;
+}
+
+.large-nav ul {
+  float:right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d8d8d8;
+  width: 100%;
+}
+
+.large-nav li {
+  float: right;
+}
+
+.large-nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  font-size: 15pt;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #336;
+
+}
+
+.blue-back{
+  background-color: #336;
+}
+
+.blue-back a{
+  background-color: #336;
+  color: white;
+}
+.large-nav li a:hover {
+  background-color: white;
+}
+.small-nav{
+  width: 100%;
+}
+
+.large-nav{
+  width: 100%
 }
 
 #icon1{
-  height:40px;
+  height:30px;
   width: 220px;
+  background-color: white;
 
-} */
+}
+
+.row{
+  width: 100%;
+  position: fixed;
+}
