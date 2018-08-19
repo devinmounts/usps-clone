@@ -8,6 +8,7 @@ import { routing } from './app.routing';
 import { NavComponent } from './nav/nav.component';
 import { PopularPagesComponent } from './popular-pages/popular-pages.component';
 import { TopNewsComponent } from './top-news/top-news.component';
+import { FormComponent } from './form/form.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { TopNewsComponent } from './top-news/top-news.component';
     HomeComponent,
     NavComponent,
     PopularPagesComponent,
-    TopNewsComponent
+    TopNewsComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
