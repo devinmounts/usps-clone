@@ -1,3 +1,23 @@
-<p>
-  drop-downs works!
-</p>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="panel panel-default first">
+        <div class="panel-heading-collapser">
+          <span (click)=showCollapsable() class="collapser-span">What does my tracking number look like?</span>
+        </div>
+        <div ng-hide="hide" class="collapsable">
+          <div class="col-sm-6 column-left">
+            <span class="service">Service</span>
+            <span class="sample-number">Sample Number</span>
+          </div>
+          <div class="col-sm-6 column-right">
+            <span class="service">Service</span>
+            <span class="sample-number">Sample Number</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
