@@ -1,16 +1,47 @@
- .row {
+ div.row {
   width: 100%;
-  background-color: lightblue;
   border: 5px red;
-  min-height: 60px;
+  min-height: 200px;
+  position:relative;
 }
 
 ul#horizontal-list {
-	min-width: 696px;
+	width: 100%;
 	list-style: none;
 	padding-top: 20px;
-	}
+  float: right
 
+}
+
+ul#horizontal-list li {
+	display: inline;
+}
+
+div.row div.label-container{
+  display: table;
+	margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.left{
+  font-size: 18pt;
+  float:left;
+}
+
+.right{
+  font-size: 14pt;
+  float: right;
+}
+
+#tracking{
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-style: solid;
+}
 /*.label-container {
   width: 80%;
   background-color: coral;
@@ -30,8 +61,3 @@ ul#horizontal-list {
   padding: 14px 16px;
   text-decoration: none;
 } */
-
-.label-contain{
-  display: table;   /* Allow the centering to work */
-  	margin: 0 auto;
-}
