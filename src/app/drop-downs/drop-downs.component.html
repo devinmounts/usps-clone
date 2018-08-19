@@ -6,17 +6,17 @@
           <span
           [class]="toggleCollapser()"
           (click)=showCollapsable()>
-          What does my tracking number look like?</span>
+          What does my tracking number look like?
           <img *ngIf="downArrow" class="arrow" src='../../assets/images/arrow-down.png'>
           <img *ngIf="upArrow" class="arrow" src='../../assets/images/arrow-up.png'>
+          </span>
         </div>
         <div *ngIf="showInfo" class="collapsable">
-          <div class="col-sm-6 column-left">
-            <span class="service">Service
-            </span>
+          <div class="col-sm-6 column-right">
+            <span class="service">Service</span>
             <span class="sample-number">Sample Number</span>
           </div>
-          <div class="col-sm-6 column-right">
+          <div class="col-sm-6 column-left">
             <span class="service">Service</span>
             <span class="sample-number">Sample Number</span>
           </div>
