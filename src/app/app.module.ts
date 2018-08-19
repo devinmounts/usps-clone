@@ -10,6 +10,7 @@ import { NavComponent } from './nav/nav.component';
 import { PopularPagesComponent } from './popular-pages/popular-pages.component';
 import { TopNewsComponent } from './top-news/top-news.component';
 import { FormComponent } from './form/form.component';
+import { DropDownsComponent } from './drop-downs/drop-downs.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { FormComponent } from './form/form.component';
     NavComponent,
     PopularPagesComponent,
     TopNewsComponent,
-    FormComponent
+    FormComponent,
+    DropDownsComponent
   ],
   imports: [
     BrowserModule,
