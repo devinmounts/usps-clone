@@ -8,10 +8,13 @@ import { Component } from '@angular/core';
 export class DropDownsComponent {
 
   showInfo: boolean = false;
-
+  downArrow: boolean = true;
+  upArrow: boolean = false;
 
   showCollapsable(){
     this.showInfo = !this.showInfo;
+    this.downArrow = !this.downArrow;
+    this.upArrow = !this.upArrow;
   }
 
   toggleCollapser(){

@@ -5,12 +5,15 @@
         <div class="panel-heading-collapser">
           <span
           [class]="toggleCollapser()"
-          (click)=showCollapsable() >
-          What does my tracking number look like?</span><img src='.../.../assets/images/arrow-down.png'>
+          (click)=showCollapsable()>
+          What does my tracking number look like?</span>
+          <img *ngIf="downArrow" class="arrow" src='../../assets/images/arrow-down.png'>
+          <img *ngIf="upArrow" class="arrow" src='../../assets/images/arrow-up.png'>
         </div>
         <div *ngIf="showInfo" class="collapsable">
           <div class="col-sm-6 column-left">
-            <span class="service">Service</span>
+            <span class="service">Service
+            </span>
             <span class="sample-number">Sample Number</span>
           </div>
           <div class="col-sm-6 column-right">

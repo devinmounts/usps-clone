@@ -4,7 +4,8 @@
 
 .collapser-span{
   font-size: 20pt;
-  text-decoration: underline;    
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .col-sm-6{
@@ -20,4 +21,16 @@
   font-size: 20pt;
   text-decoration: underline;
   text-decoration-color: red;
+  cursor: pointer;
+}
+
+.arrow{
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.collapsable{
+  transition-property: all;
+	transition-duration: .5s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }
