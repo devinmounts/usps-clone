@@ -3,7 +3,10 @@
     <div class="col-sm-12">
       <div class="panel panel-default first">
         <div class="panel-heading-collapser">
-          <span [class]="toggleCollapser()"  (click)=showCollapsable() >What does my tracking number look like?</span>
+          <span
+          [class]="toggleCollapser()"
+          (click)=showCollapsable() >
+          What does my tracking number look like?</span><img src='.../.../assets/images/arrow-down.png'>
         </div>
         <div *ngIf="showInfo" class="collapsable">
           <div class="col-sm-6 column-left">
