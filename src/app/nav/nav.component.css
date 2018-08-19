@@ -55,9 +55,14 @@
   background-color: #336;
 }
 
-.blue-back a{
+#white{
   background-color: #336;
   color: white;
+}
+
+#white:hover{
+  background-color: white;
+  color: #336;
 }
 .large-nav li a:hover {
   background-color: white;
