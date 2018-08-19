@@ -55,11 +55,20 @@ button{
   display: inline-block;
   height: 40px;
   width: 80px;
+  border-radius: 5px;
+  background-color: #336;
+  color: white;
 }
 
 .form-group{
   width: 80%;
   display: inline-block;
+}
+
+#touch-warning{
+  margin-left: 20px;
+  font-size: 8pt;
+  color: red;
 }
 /*.label-container {
   width: 80%;
