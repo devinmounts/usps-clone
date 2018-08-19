@@ -3,7 +3,8 @@
 }
 
 .collapser-span{
-  font-size: 14pt;
+  font-size: 20pt;
+  text-decoration: underline;    
 }
 
 .col-sm-6{
@@ -13,4 +14,10 @@
 .sample-number{
   float: right;
   margin-right: 50px;
+}
+
+.collapser-style{
+  font-size: 20pt;
+  text-decoration: underline;
+  text-decoration-color: red;
 }
