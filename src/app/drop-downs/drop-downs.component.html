@@ -15,13 +15,99 @@
           <div class="col-sm-6 column-right">
             <span class="service">Service</span>
             <span class="sample-number">Sample Number</span>
+            <p>
+              <span class="type">USPS Tracking®</span>
+              <span class="number">9400 1000 0000 0000 0000 00</span>
+            </p>
+            <p>
+              <span class="type">USPS Tracking®</span>
+              <span class="number">9400 1000 0000 0000 0000 00</span>
+            </p>
+            <p>
+              <span class="type">USPS Tracking®</span>
+              <span class="number">9400 1000 0000 0000 0000 00</span>
+            </p>
+            <p>
+              <span class="type">USPS Tracking®</span>
+              <span class="number">9400 1000 0000 0000 0000 00</span>
+            </p>
           </div>
           <div class="col-sm-6 column-left">
             <span class="service">Service</span>
             <span class="sample-number">Sample Number</span>
+            <p>
+                <span class="type">USPS Tracking®</span>
+                <span class="number">9400 1000 0000 0000 0000 00</span>
+              </p>
+              <p>
+                <span class="type">USPS Tracking®</span>
+                <span class="number">9400 1000 0000 0000 0000 00</span>
+              </p>
+              <p>
+                <span class="type">USPS Tracking®</span>
+                <span class="number">9400 1000 0000 0000 0000 00</span>
+              </p>
+              <p>
+                <span class="type">USPS Tracking®</span>
+                <span class="number">9400 1000 0000 0000 0000 00</span>
+              </p>
           </div>
         </div>
       </div>
     </div>
+    <div class="col-sm-12">
+        <div class="panel panel-default first">
+          <div class="panel-heading-collapser">
+            <span
+            [class]="toggleCollapser()"
+            (click)=showCollapsable()>
+            Where do I find my tracking number?
+            <img *ngIf="downArrow" class="arrow" src='../../assets/images/arrow-down.png'>
+            <img *ngIf="upArrow" class="arrow" src='../../assets/images/arrow-up.png'>
+            </span>
+          </div>
+          <div *ngIf="showInfo" class="collapsable-mini-FAQ">
+            <h6>Your tracking number can be found in the following places:</h6>
+            <div class="col-sm-6 column-left">
+              <ul>
+                <span class="faq">Your Post Office™ shipping receipt</span>
+                <span class="faq">Your sales receipt if you bought insurance at the Post Office™</span>
+                <span class="faq">Your email confirmation if you shipped from USPS.com</span>
+              </ul>
+              
+            </div>
+            <div class="col-sm-6 column-left">
+                <ul>
+                    <span class="faq">Your Post Office™ shipping receipt</span>
+                    <span class="faq">Your sales receipt if you bought insurance at the Post Office™</span>
+                    <span class="faq">Your email confirmation if you shipped from USPS.com</span>
+                  </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12">
+          <div class="panel panel-default first">
+            <div class="panel-heading-collapser">
+              <span
+              [class]="toggleCollapser()"
+              (click)=showCollapsable()>
+              How can I leave delivery instructions?
+              <img *ngIf="downArrow" class="arrow" src='../../assets/images/arrow-down.png'>
+              <img *ngIf="upArrow" class="arrow" src='../../assets/images/arrow-up.png'>
+              </span>
+            </div>
+            <div *ngIf="showInfo" class="collapsable">
+              <div class="col-sm-6 column-right">
+                <span class="service">Service</span>
+                <span class="sample-number">Sample Number</span>
+              </div>
+              <div class="col-sm-6 column-left">
+                <span class="service">Service</span>
+                <span class="sample-number">Sample Number</span>
+              </div>
+            </div>
+          </div>
+        </div>
   </div>
 </div>

@@ -1,12 +1,11 @@
 .small-nav ul {
-  display: block;
   float:right;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: white;
-  width: 100%;
+  
 }
 
 .small-nav li {
@@ -33,7 +32,7 @@
   padding: 0;
   overflow: hidden;
   background-color: #d8d8d8;
-  width: 100%;
+  /* display: inline-block; */
 }
 
 .large-nav li {
@@ -79,10 +78,15 @@
   height:30px;
   width: 220px;
   background-color: white;
+  display: inline-block;
 
 }
 
 .row{
   width: 100%;
-  /* position: fixed; */
+}
+
+#icon-span{
+  display: inline-flex;
+  float: left;
 }
