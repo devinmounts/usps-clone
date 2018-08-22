@@ -1,20 +1,20 @@
-# Copa Airlines Clone
+# USPS Tracking Clone
 
 #### Epicodus AngularJS wk3 Independent Project, 08/17/2018
 
 #### By Devin Mounts
 
-## A web application clone for One Football that allows view articles about soccer. The url of the original site can be found in Links.
+## A web application clone for USPS Tracking that allows user to enter tracking number and view details of package. The url of the original site can be found in Links.
 
 
 ## Specs
 
 | Behavior | Input | Output |
 |----------|-------|--------|
-| Program allows user to view articles on home page | |  |
-| Program allows user to click on an article and be routed to article page | Article click | Article View |
-| Program allows user to click on popular page and view match data and articles on popular page view | Popular Page 01 click| Data and Article Details view|
-| Program allows user to search for teams and returns details view | Real Madrid | Real Madrid Details View |
+| Program allows user to view tracking page | |  |
+| Program allows user to click on tracking input form and input a value | ####  |  |
+| Program allows user to on faq tabs and view information | FAQ click| Display FAQ info|
+| Program allows user to click sign up and navigate to sign up form | Click Sign up| Display Sign-up Form |
 
 
 ## Setup on OSX
@@ -44,8 +44,8 @@
 
 ## Links
 
-* Original One Football Website:
-https://onefootball.com/en/home
+* Original USPS tracking Website:
+https://tools.usps.com/go/TrackConfirmAction_input
 
 ## License
 
