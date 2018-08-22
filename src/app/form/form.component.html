@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="label-container">
+    <ul id="horizontal-list">
+      <li class="left">USPS Tracking</li>
+      <li class="right">/   FAQ   </li>
+      <li id="tracking" class="right">   Tracking   </li>
+    </ul>
+  </div>
+</div>
+<div class="row02">
+<form>
+  <div class="form-group">
+    <input
+      required
+      ngModel type="text"
+      name="tracking"
+      #tracking="ngModel"
+      (change)=log(tracking)
+      placeholder="Enter up to 35 tracking numbers separated by commas">
+  </div>
+  <button type="button" name="button">Track</button>
+</form>
+<div
+  id="touch-warning"
+  *ngIf="tracking.touched && !tracking.valid"
+  class="">
+  Please enter a tracking number
+</div>
+
+</div>

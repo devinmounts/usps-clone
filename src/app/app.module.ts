@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
@@ -8,6 +9,8 @@ import { routing } from './app.routing';
 import { NavComponent } from './nav/nav.component';
 import { PopularPagesComponent } from './popular-pages/popular-pages.component';
 import { TopNewsComponent } from './top-news/top-news.component';
+import { FormComponent } from './form/form.component';
+import { DropDownsComponent } from './drop-downs/drop-downs.component';
 
 
 @NgModule({
@@ -16,11 +19,14 @@ import { TopNewsComponent } from './top-news/top-news.component';
     HomeComponent,
     NavComponent,
     PopularPagesComponent,
-    TopNewsComponent
+    TopNewsComponent,
+    FormComponent,
+    DropDownsComponent
   ],
   imports: [
     BrowserModule,
-    routing
+    routing,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
