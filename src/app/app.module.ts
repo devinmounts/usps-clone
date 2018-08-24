@@ -11,6 +11,8 @@ import { PopularPagesComponent } from './popular-pages/popular-pages.component';
 import { TopNewsComponent } from './top-news/top-news.component';
 import { FormComponent } from './form/form.component';
 import { DropDownsComponent } from './drop-downs/drop-downs.component';
+import { SignInComponent } from './sign-in/sign-in.component';
+import { RegisterComponent } from './register/register.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { DropDownsComponent } from './drop-downs/drop-downs.component';
     PopularPagesComponent,
     TopNewsComponent,
     FormComponent,
-    DropDownsComponent
+    DropDownsComponent,
+    SignInComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
